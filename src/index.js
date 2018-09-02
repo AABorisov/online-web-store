@@ -7,10 +7,12 @@ import './index.css';
 import App from './App';
 import store from './config/store';
 
-const app = (<Provider store = { store } >
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
-</Provider>);
+const app = (
+    <Provider store = { store } >
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </Provider>
+);
 
 ReactDOM.render(app, document.getElementById('root'));

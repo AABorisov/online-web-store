@@ -1,42 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38911b26-85ea-49ba-852a-e3df0a260b27" name="Default" comment="Setup router&#10;Setup redux&#10;Products json and images">
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/1-groot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/10-lego-millennium-falcon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/11-electric-guitar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/12-ukelele.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/13-flute.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/14-drums.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/15-llama.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/16-pikachu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/17-mario-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/18-bunny.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/19-dump-truck.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/2-buzz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/20-livestock-truck.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/3-minion-dave.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/4-minion-kevin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/5-minion-bob.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/6-logo-city.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/7-lego-toy-story.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/8-lego-batmobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/public/products/9-lego-police.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/src/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/src/config/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/src/data/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../online-web-store/src/pages/online-web-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/.gitignore" afterDir="false" />
+    <list default="true" id="38911b26-85ea-49ba-852a-e3df0a260b27" name="Default" comment="Product list&#10;Get products data using XMLHttpRequest&#10;Product list item&#10;Add to cart button&#10;Remove from cart button&#10;justify and align by center">
+      <change afterPath="$PROJECT_DIR$/../online-web-store/src/components/cart/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../online-web-store/src/components/product-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../online-web-store/src/components/product-list/product-list-item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../online-web-store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../online-web-store/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../online-web-store/src/config/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/src/config/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../online-web-store/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../online-web-store/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../online-web-store/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../online-web-store/src/pages/online-web-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../online-web-store/src/pages/online-web-store.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +27,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../online-web-store/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="442">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -63,19 +37,10 @@
         <entry file="file://$PROJECT_DIR$/../online-web-store/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../online-web-store/src/data/products.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -95,8 +60,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../online-web-store/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -104,11 +69,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="store.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../online-web-store/src/config/store.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,24 +93,43 @@
       <file leaf-file-name="online-web-store.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../online-web-store/src/pages/online-web-store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="51">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../online-web-store/public/index.html">
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../online-web-store/src/components/cart/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="221">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../online-web-store/public/manifest.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../online-web-store/src/components/product-list/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-list-item.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../online-web-store/src/components/product-list/product-list-item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -165,10 +152,19 @@
         <option value="$PROJECT_DIR$/../online-web-store/README.md" />
         <option value="$PROJECT_DIR$/../online-web-store/.gitignore" />
         <option value="$PROJECT_DIR$/../online-web-store/src/Router.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/features/product-listing.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/features/product-list.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/features/product-list/product-list.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/features/product-list/product-list-item.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/features/product-list/index.js" />
         <option value="$PROJECT_DIR$/../online-web-store/src/App.js" />
-        <option value="$PROJECT_DIR$/../online-web-store/src/pages/online-web-store.js" />
-        <option value="$PROJECT_DIR$/../online-web-store/src/index.js" />
         <option value="$PROJECT_DIR$/../online-web-store/src/config/store.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/index.css" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/components/cart/reducer.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/components/product-list/index.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/components/product-list/product-list-item.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/index.js" />
+        <option value="$PROJECT_DIR$/../online-web-store/src/pages/online-web-store.js" />
       </list>
     </option>
   </component>
@@ -189,10 +185,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="788" />
-    <option name="height" value="688" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -212,19 +207,32 @@
             <path>
               <item name="online-web-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-web-store" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-web-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-web-store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="online-web-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-web-store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="online-web-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-web-store" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-web-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-web-store" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="product-list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +242,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;yarn&#9;FILE&#9;file://C:/Users/Andrey/WebstormProjects/online-web-store/yarn.lock&#10;npm&#9;ACTION&#9;ActivatenpmToolWindow&#10;git&#9;ACTION&#9;Github.Share&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="333" />
+    <property name="SearchEverywhereHistoryKey" value="git&#9;ACTION&#9;Git.ContextMenu&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;yarn&#9;FILE&#9;file://C:/Users/Andrey/WebstormProjects/online-web-store/yarn.lock&#10;npm&#9;ACTION&#9;ActivatenpmToolWindow&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../online-web-store" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -242,6 +266,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey\WebstormProjects\online-web-store\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey\WebstormProjects\online-web-store" />
+      <recent name="C:\Users\Andrey\WebstormProjects\online-web-store\src\features\product-list" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,7 +314,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535744794552</updated>
-      <workItem from="1535744797741" duration="11346000" />
+      <workItem from="1535744797741" duration="30512000" />
     </task>
     <task id="LOCAL-00001" summary="create-react-app online-web-store&#10;First empty commit">
       <created>1535855823219</created>
@@ -290,26 +323,40 @@
       <option name="project" value="LOCAL" />
       <updated>1535855823219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup router&#10;Setup redux&#10;Products json and images">
+      <created>1535866274763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535866274763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="/src/data/products.json is moved db.json to get it using my-json-server.typicode.com">
+      <created>1535873753630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535873753630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11346000" />
+    <option name="totallyTimeSpent" value="30512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.33387622" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.29967427" />
-      <window_info id="npm" order="1" sideWeight="0.2645631" side_tool="true" visible="true" weight="0.21522693" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.35504887" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.29917356" />
+      <window_info id="npm" order="1" sideWeight="0.26405868" side_tool="true" visible="true" weight="0.20278184" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32899022" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7354369" visible="true" weight="0.21522693" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7359413" visible="true" weight="0.20278184" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3289256" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
@@ -330,7 +377,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create-react-app online-web-store&#10;First empty commit" />
     <MESSAGE value="Setup router&#10;Setup redux&#10;Products json and images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup router&#10;Setup redux&#10;Products json and images" />
+    <MESSAGE value="/src/data/products.json is moved db.json to get it using my-json-server.typicode.com" />
+    <MESSAGE value="Product list&#10;Get products data using XMLHttpRequest&#10;Product list item&#10;Add to cart button&#10;Remove from cart button&#10;justify and align by center" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product list&#10;Get products data using XMLHttpRequest&#10;Product list item&#10;Add to cart button&#10;Remove from cart button&#10;justify and align by center" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../online-web-store/node_modules/react-scripts/config/webpack.config.dev.js">
@@ -403,20 +452,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../online-web-store/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../online-web-store/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../online-web-store/src/App.js">
+    <entry file="file://$PROJECT_DIR$/../online-web-store/src/data/products.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../online-web-store/db.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../online-web-store/src/config/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../online-web-store/src/components/cart/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../online-web-store/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../online-web-store/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -436,31 +512,37 @@
     <entry file="file://$PROJECT_DIR$/../online-web-store/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../online-web-store/src/data/products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../online-web-store/src/pages/online-web-store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="51">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../online-web-store/src/config/store.js">
+    <entry file="file://$PROJECT_DIR$/../online-web-store/src/components/product-list/product-list-item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="190">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../online-web-store/src/components/product-list/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
